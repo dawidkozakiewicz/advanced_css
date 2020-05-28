@@ -1,0 +1,22 @@
+@import "variables";
+@import "reset";
+@import "base";
+@import "container";
+
+body {
+    .container {
+        .red {
+            background-color: $black;
+            width: 300px;
+            height: 150px;
+            position: absolute;
+        }
+
+        .blue {
+            background-color: blue;
+            width: 150px;
+            height: 75px;
+            position: absolute;
+        }
+    }
+}
